@@ -7,7 +7,6 @@ This Jupyter Notebook performs analysis and evaluation of a **lung tumor segment
 The notebook loads preprocessed CT scan slices (`.npy` format) along with their corresponding ground-truth tumor masks, visualizes examples, implements a U-Net-based segmentation model using PyTorch, trains it on GPU (NVIDIA Tesla T4), and evaluates performance using the **Intersection over Union (IoU)** metric.
 
 ## Dataset
-
 - **Source**: [Lung Tumor Segmentation - Kaggle Dataset](https://www.kaggle.com/datasets/mohammedalqatib/lung-tumor-segmentation)
 - **Structure**:
 /train/train/
@@ -19,21 +18,17 @@ The notebook loads preprocessed CT scan slices (`.npy` format) along with their 
 - **Normalization**: Images are pre-normalized (values roughly in [-0.33, 1.0])
 
 ## Key Features
-
 - Exploratory data visualization (original image + mask overlay)
-- Custom PyTorch `Dataset` and `DataLoader` for efficient loading
-- U-Net architecture with pretrained ResNet-34 encoder (via `segmentation_models_pytorch`)
-- Training on Kaggle GPU (NVIDIA Tesla T4)
-- Mixed precision training (AMP) for faster training and lower memory usage
+- Load the dataset
+- U-Net architecture 
+- Training on Kaggle GPU 
 - Validation with **Dice Loss** + **BCE** combined loss
 - Comprehensive evaluation:
 - Per-image IoU calculation
 - Mean, median, best, and worst IoU reporting
 - Visualization of predictions vs ground truth
-- Sample output from a trained model:
   
 ## Requirements
-
 - Python 3.11+
 - Tensorflow
 - torchvision
