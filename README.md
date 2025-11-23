@@ -27,7 +27,10 @@ The notebook loads preprocessed CT scan slices (`.npy` format) along with their 
 - Per-image IoU calculation
 - Mean, median, best, and worst IoU reporting
 - Visualization of predictions vs ground truth
-  
+
+## Results
+![Alt text for the image](https://github.com/Muhammad-Hassan-Farid/Lung-Tumor-Segmentation-With-UNET/blob/main/Output_Overlay.png?raw=true)
+
 ## Requirements
 - Python 3.11+
 - Tensorflow
