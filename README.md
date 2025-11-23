@@ -4,7 +4,7 @@
 
 This Jupyter Notebook performs analysis and evaluation of a **lung tumor segmentation model** on the [Lung Tumor Segmentation dataset](https://www.kaggle.com/datasets/mohammedalqatib/lung-tumor-segmentation) from Kaggle.
 
-The notebook loads preprocessed CT scan slices (`.npy` format) along with their corresponding ground-truth tumor masks, visualizes examples, implements a U-Net-based segmentation model using PyTorch, trains it on GPU (NVIDIA Tesla T4), and evaluates performance using the **Intersection over Union (IoU)** metric.
+The notebook loads preprocessed CT scan slices (`.npy` format) along with their corresponding ground-truth tumor masks, visualizes examples, implements a U-Net-based segmentation model using tensorflow, trains it on GPU (NVIDIA Tesla T4), and evaluates performance using the **Intersection over Union (IoU)** metric.
 
 ## Dataset
 - **Source**: [Lung Tumor Segmentation - Kaggle Dataset](https://www.kaggle.com/datasets/mohammedalqatib/lung-tumor-segmentation)
