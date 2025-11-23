@@ -31,8 +31,9 @@ The notebook loads preprocessed CT scan slices (`.npy` format) along with their 
 ## Requirements
 - Python 3.11+
 - Tensorflow
-- torchvision
-- numpy, matplotlib, seaborn
+- numpy
+- matplotlib
+- seaborn
 
 Install dependencies:
 ```bash
