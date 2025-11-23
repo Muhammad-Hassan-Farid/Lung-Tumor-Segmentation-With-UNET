@@ -37,7 +37,7 @@ The notebook loads preprocessed CT scan slices (`.npy` format) along with their 
 Install dependencies:
 ```bash
 ! pip install numpy, matplotlib, seaborn, tensorflow
-
+```
 **Author**
 Muhammad Hassan Farid
 
