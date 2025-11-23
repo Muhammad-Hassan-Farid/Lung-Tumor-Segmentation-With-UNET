@@ -9,10 +9,10 @@ The notebook loads preprocessed CT scan slices (`.npy` format) along with their 
 ## Dataset
 - **Source**: [Lung Tumor Segmentation - Kaggle Dataset](https://www.kaggle.com/datasets/mohammedalqatib/lung-tumor-segmentation)
 - **Structure**:
-/train/train/
-├── <patient_id>/
-│   ├── data/     → Original CT slices (.npy, float64, normalized)
-│   └── masks/    → Binary tumor masks (.npy, float64, 0/1 values)
+#### /train/train/
+#### ├── <patient_id>/
+#### ├── data/     → Original CT slices (.npy, float64, normalized)
+#### └── masks/    → Binary tumor masks (.npy, float64, 0/1 values)
 
 - **Image size**: 256×256 pixels
 - **Normalization**: Images are pre-normalized (values roughly in [-0.33, 1.0])
